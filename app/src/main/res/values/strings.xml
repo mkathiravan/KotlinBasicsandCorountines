@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">KotlinBasicsandAdvancedCorountines</string>
+
+
+
+    <string name="france_name">France</string>
+    <string name="france_url">https://www.telegraph.co.uk/content/dam/world-cup/2018/07/15/TELEMMGLPICT000169509382-xlarge_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQfyf2A9a6I9YchsjMeADBa08.jpeg</string>
+    <string name="france_desc">We all know 2018 worldcup champions France. France also became the third team in the 32-team World Cup to win all their knockout matches without any extra time or penalty shoot-out after Brazil in 2002 and Spain in 2010.
+    </string>
+    <string name="croatia_name">Croatia</string>
+    <string name="croatia_url">https://img.fifa.com/image/upload/t_l4/m1nnf1gngwhz8xavspzz.jpg</string>
+    <string name="croatia_desc">Croatia national football team have appeared in the FIFA World Cup on five occasions (in 1998, 2002, 2006, 2014 and 2018) since gaining independence in 1991. Before that, from 1930 to 1990 Croatia was part of Yugoslavia. Their best result thus far was reaching the 2018 final, where they lost 4-2 to France.
+    </string>
+    <string name="belgium_name">Belgium</string>
+    <string name="belgium_url">https://statics.sportskeeda.com/editor/2018/05/2433c-1527145878-800.jpg</string>
+    <string name="belgium_desc">Belgium topped the FIFA World Rankings for the first time in November 2015 and finished third at the 2018 World Cup
+    </string>
+    <string name="england_name">England</string>
+    <string name="england_url">https://ichef.bbci.co.uk/news/976/cpsprodpb/16AD0/production/_102408829_hi047916176.jpg</string>
+    <string name="engladn_desc">Since first entering the tournament in 1950, England has qualified for the FIFA World Cup 15 times. They won the 1966 World Cup, when they hosted the finals, and finished fourth in 1990 and 2018
+    </string>
+    <string name="error_message">Error while loading image.</string>
+
+
+
+    <string name="englandcri_name">England</string>
+    <string name="englandcri_url">https://cdn.cnn.com/cnnnext/dam/assets/190714153043-england-cwc-trophy-exlarge-169.jpg</string>
+    <string name="englandcri_desc">England are the current champions after winning the 2019 WC edition</string>
+
+
+    <string name="newzelandcri_name">New Zeland</string>
+    <string name="newzelandcri_url">https://m.economictimes.com/thumb/msid-70240397,width-1200,height-900,resizemode-4,imgsize-261563/on-sunday-kane-williamsons-men-lost-an-opportunity-to-win-their-first-world-cup.jpg</string>
+    <string name="newzelandcri_desc">New Zeland are the Runner-up in the 2019 WC edition.</string>
+
+
+    <string name="indiacri_name">India</string>
+    <string name="indiacri_url">https://www.cricbuzz.com/a/img/v1/980x654/i1/c171499/india-will-be-the-last-team-to.jpg</string>
+    <string name="indiacri_desc">India lost against NewZeland in the 2019 WC Semi-final.</string>
+
+
+    <string name="auscri_name">Australia</string>
+    <string name="auscri_url">https://c.ndtvimg.com/2019-06/8iu73s3g_australia-vs-pakistan-afp_625x300_12_June_19.jpg</string>
+    <string name="auscri_desc">Australia lost against England in the semi-final 2019 WC edition.</string>
+
+
+</resources>
