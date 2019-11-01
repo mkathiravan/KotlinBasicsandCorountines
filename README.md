@@ -38,6 +38,31 @@ Once you cancel a Job, you cannot reuse it for coroutines. You have to create a 
 
 In this project I explained how to use fragment adatper in kotlin and how to download the image and apply some images during the loading time using kotlin coroutines.
 
+    private suspend fun getOriginalBitmapAsync(cricketModel: CricketModel) : Bitmap =
+        withContext(Dispatchers.IO){
+            URL(cricketModel.url).openStream().use {
+                return@withContext BitmapFactory.decodeStream(it)
+            }
+        }
+
+
+    private suspend fun loadSnowFilterAsync(originalBitmap: Bitmap) : Bitmap =
+        withContext(Dispatchers.Default){
+            SnowFilter.applySnowEffect(originalBitmap)
+        }
+
+
+    private fun loadImage(snowFilterBitmap : Bitmap)
+    {
+        progressBar.visibility = View.GONE
+        snowFilterImage?.setImageBitmap(snowFilterBitmap)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        coroutineScope.cancel()
+    }
+
 ![image](https://user-images.githubusercontent.com/39657409/68041833-6dc10a00-fcf7-11e9-8b8c-0b16b4b61bea.png)
 
 ![image](https://user-images.githubusercontent.com/39657409/68041850-7d405300-fcf7-11e9-8e17-15cc2003e5da.png)
