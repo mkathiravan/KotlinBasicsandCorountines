@@ -35,3 +35,11 @@ From documentation:
 Deferred value is a non-blocking cancellable future — it is a Job that has a result.
 
 Once you cancel a Job, you cannot reuse it for coroutines. You have to create a new one. This is why it’s a good practice to either avoid adding Jobs to the CoroutineContext of your scope, or to recreate jobs according to your app’s lifecycle.
+
+In this project I explained how to use fragment adatper in kotlin and how to download the image and apply some images during the loading time using kotlin coroutines.
+
+![image](https://user-images.githubusercontent.com/39657409/68041833-6dc10a00-fcf7-11e9-8b8c-0b16b4b61bea.png)
+
+![image](https://user-images.githubusercontent.com/39657409/68041850-7d405300-fcf7-11e9-8e17-15cc2003e5da.png)
+
+![image](https://user-images.githubusercontent.com/39657409/68041868-8b8e6f00-fcf7-11e9-93e3-3a89f5eecc3b.png)
